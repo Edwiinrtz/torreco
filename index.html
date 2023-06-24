@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="static/style/style.css">  
+    <link rel="icon" type="image/x-icon" href="static/media/logo.ico">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Torreco</title>
+</head>
+<body>
+
+    <header id="inicio">
+        <section id="cover">
+            <h1>TORR<span>ECO</span></h1>
+            <h2>¡Deja tu basura en nuestras manos!</h2>
+    
+            <div id="agendar" class="btn" onclick="agendar()"><h3>Agendar visita</h3></div>
+        </section>
+    </header>
+
+    <section id="body">
+        <h2>
+            Presentacion
+        </h2>
+
+        <iframe  src="https://www.youtube.com/embed/tcXLQNIPFVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+        <div id="agendar" class="btn" onclick="agendar()">
+            <img src="static/media/580b57fcd9996e24bc43c543.png" width="48px" height="48px" alt="">
+
+            <h3>whatsapp</h3>
+        </div>
+
+
+    </section>
+
+
+    <footer>
+
+        <div>
+            <h3>Contactanos</h3><br>
+            <p><i class="fa fa-phone"></i>  (+57)  3243528854</p>
+            <p><i class="fa fa-envelope"></i> edwiinrtz@gmail.com</p>
+            <p><i class="fa fa-map-marker">  Robledo Santa María</i></p>
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.8213801949028!2d-75.60170452424707!3d6.287194825862671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44294a6974bf55%3A0xf772220e45797268!2sTerritorio%20Robledo!5e0!3m2!1ses!2sco!4v1687403960025!5m2!1ses!2sco" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </footer>
+
+    <script>
+
+        function agendar(){
+
+            window.location.href = "https://api.whatsapp.com/send?phone=573243528854&text=Hola";
+        }
+
+
+
+    </script>
+    
+</body>
+</html>
